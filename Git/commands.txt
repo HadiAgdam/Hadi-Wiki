@@ -1,0 +1,50 @@
+configure git:
+git config --global user.name "HadiAgdam"
+git config --global user.email "hadiagdam0@gmail.com"
+
+#If you want to config this for only one project, remove "--global"
+
+Initilize an empty Git repository :
+git init
+
+check the status of git repo:
+git status
+
+check short status:
+git status --short
+
+short status flags:
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+
+
+Staged files are files that are ready to be committed to the repository you are working on.
+
+stage file:
+git add <file>
+
+unstage file:
+git rm --cached <file>
+
+
+stage all files in directory:
+git add --all
+
+
+commit :
+git commit -m "<message>"
+
+commit without staging:
+git commt -a -m "<message>"
+
+
+Add repo:
+git remote add origin https-----
+
+push to empty repo:
+git push --set-upstream origin main
+
+log:
+git log

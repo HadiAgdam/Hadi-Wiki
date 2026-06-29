@@ -1,0 +1,16 @@
+create a new branch:
+git branch new_branch
+
+show branches:
+git branch
+
+
+select a branch:
+git checkout new_branch
+
+merge branch to selected branch:
+git merge new_branch
+
+
+list of remote branches:
+git branch -r
