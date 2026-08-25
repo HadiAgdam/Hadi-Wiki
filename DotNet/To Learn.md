@@ -5,4 +5,4 @@
 - [ ] Rabbit MQ
 - [ ] Redis
 
-- [ ] Dapper
+- [x] Dapper
