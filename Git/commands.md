@@ -1,3 +1,4 @@
+```
 configure git:
 git config --global user.name "HadiAgdam"
 git config --global user.email "hadiagdam0@gmail.com"
@@ -48,3 +49,4 @@ git push --set-upstream origin main
 
 log:
 git log
+```

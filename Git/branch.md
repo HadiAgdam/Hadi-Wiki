@@ -1,3 +1,4 @@
+```
 create a new branch:
 git branch new_branch
 
@@ -14,3 +15,4 @@ git merge new_branch
 
 list of remote branches:
 git branch -r
+```
