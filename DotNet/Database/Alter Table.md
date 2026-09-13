@@ -12,3 +12,9 @@ ADD ProcessedAt DATETIME2 NULL;
 CREATE INDEX IX_Registrations_Processed_Id
 ON Registrations(Processed, Id);
 ```
+
+
+```sql
+ALTER TABLE TableName
+ALTER COLUMN ColumnName NewDataType;
+```
